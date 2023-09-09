@@ -4,12 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./assets/js/main.js"></script>
-    <title>Document</title>
+    <script src="./assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="assets/css/style.css/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Calc</title>
 </head>
 
 <body>
-    <a href="https://github.com/Yl1a/wolfik" class="link">Link</a>
+    <div class="calc">
+        <h1>Калькулятор</h1>
+        <div class="input_calc">
+            <input type="number" class="inputOne" value="1">
+            <input type="number" class="inputSec" value="1">
+        </div>
+        <div class="btn_calc">
+            <button class="btn plus">+</button>
+            <button class="btn minus">-</button>
+            <button class="btn Multi">*</button>
+            <button class="btn Division">/</button>
+        </div>
+        <button class="btnResult">Рассчитать</button>
+
+        <h2 class="answer">Ответ: </h2>
+        <h2 class="result">2</h2>
+    </div>
+
 </body>
 
 </html>
